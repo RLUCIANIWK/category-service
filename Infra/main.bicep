@@ -28,7 +28,7 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
 
     siteConfig: {
 
-      alwaysOn: true // Mantiene el microservicio despierto (requiere plan Basic o superior)
+      alwaysOn: false // Mantiene el microservicio despierto (requiere plan Basic o superior)
 
       linuxFxVersion: 'DOTNETCORE|8.0' // Le dice a Azure que prepare una máquina Linux con .NET 8
 
